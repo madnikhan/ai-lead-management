@@ -328,13 +328,13 @@ export default function ROICalculator({ roi: defaultROI }: ROICalculatorProps) {
               <span className="text-sm text-gray-500">- Lead Estimator</span>
             </div>
             <p className="text-lg text-gray-700 italic mb-2">
-              "System paid for itself in first 2 weeks"
+              &quot;System paid for itself in first 2 weeks&quot;
             </p>
             <p className="text-sm text-gray-600">
-              "We were skeptical at first, but the AI lead capture system started generating quality leads immediately.
+              &quot;We were skeptical at first, but the AI lead capture system started generating quality leads immediately.
               Within the first two weeks, we had converted enough jobs to cover the entire monthly cost.
               The 24/7 capture capability means we never miss a lead, even on weekends and after hours.
-              Best investment we've made for our roofing business."
+              Best investment we&apos;ve made for our roofing business.&quot;
             </p>
             <div className="mt-4 flex items-center space-x-4 text-sm">
               <div className="bg-white rounded-lg px-3 py-2 border border-gray-200">
@@ -363,8 +363,8 @@ export default function ROICalculator({ roi: defaultROI }: ROICalculatorProps) {
               <p className="font-semibold text-green-900">Exceptional ROI</p>
             </div>
             <p className="text-sm text-green-700">
-              For every $1 invested, you're generating ${(parseFloat(roiPercentage) / 100 + 1).toFixed(2)} in returns.
-              That's a {(parseFloat(roiPercentage) / 100 + 1).toFixed(1)}x return on your investment.
+              For every $1 invested, you&apos;re generating ${(parseFloat(roiPercentage) / 100 + 1).toFixed(2)} in returns.
+              That&apos;s a {(parseFloat(roiPercentage) / 100 + 1).toFixed(1)}x return on your investment.
             </p>
           </div>
           <div className="bg-blue-50 rounded-lg p-4 border border-blue-200">
