@@ -2,7 +2,7 @@
 
 import { useState, useEffect } from 'react'
 import { generateMockLeads, mockAnalytics, mockTeamMembers, mockROIData } from '@/lib/mockData'
-import LeadInbox from './LeadInbox'
+import GeneralLeadInbox from './GeneralLeadInbox'
 import PerformanceAnalytics from './PerformanceAnalytics'
 import TeamAssignment from './TeamAssignment'
 import ROICalculator from './ROICalculator'
@@ -138,7 +138,7 @@ export default function Dashboard() {
 
         {/* Content Area */}
         <div className="mb-8">
-          {activeTab === 'inbox' && <LeadInbox leads={leads} />}
+          {activeTab === 'inbox' && <GeneralLeadInbox leads={leads} />}
           {activeTab === 'analytics' && <PerformanceAnalytics analytics={mockAnalytics} />}
           {activeTab === 'team' && <TeamAssignment teamMembers={mockTeamMembers} leads={leads} />}
           {activeTab === 'roi' && <ROICalculator roiData={mockROIData} />}
